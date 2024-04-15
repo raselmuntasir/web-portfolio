@@ -2,6 +2,7 @@
 
 body{
     font-family: "Hind Siliguri", sans-serif;
+    margin: 0px;
 }
 
 h1{
@@ -18,4 +19,11 @@ h1{
 }
 .half-width img{
     width: 100%;
+}
+.top-banner{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
 }
