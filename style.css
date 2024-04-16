@@ -6,9 +6,12 @@ body{
 }
 
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
-.name-highlight{
+h2{
+    font-size: 30px;
+}
+.orange-highlight{
     color: orange ;
 }
 .half-width{
@@ -37,4 +40,22 @@ section{
     border-radius: 5px;
     color: white;
     
+}
+.dream-area{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.single-exprerience{
+    box-shadow: 10px 10px 40px gray;
+    height: 80%;
+}
+.exprerience-area{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#full-stack{
+    border-left: 7px;
+    border-image: linear-gradient(lightSalmon,tomato)
 }
